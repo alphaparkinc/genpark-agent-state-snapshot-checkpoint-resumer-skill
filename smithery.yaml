@@ -1,0 +1,7 @@
+name: genpark-agent-state-snapshot-checkpoint-resumer-skill
+description: Cryptographically verified checkpoint snapshot manager saving agent execution memory, tool states, and resuming without drift
+version: 1.0.1
+entrypoint: mcp_server.py
+command: python
+args:
+  - mcp_server.py
